@@ -23,6 +23,10 @@ For some countries the growth rate reaches a negative value. To prevent clipping
 ## arima_model.py
 ARIMA stands for AutoRegressive Integrated Moving Average. It is a statistical tool which is used for time series data for analysing and prediction of future trends. To apply ARIMA effectively the dataset needs to be made stationary by differencing the data.
 
+It is included in statsmodel for python. To install this run
+
+`pip3 install statsmodels`
+
 ARIMA has 3 parameters : p,d,q
  - p : the number of lag observations in the model, also known as the lag order.
  - d : the number of times the raw observations are differenced to make ; also known as the degree of differencing.
