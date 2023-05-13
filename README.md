@@ -2,9 +2,11 @@
 
 ## Analysis.py
 To install the required libraries run the following commands.
-`pip3 install pandas`
-`pip3 install numpy`
-`pip3 install matplotlib`
+```
+pip3 install pandas
+pip3 install numpy
+pip3 install matplotlib
+```
 
 The dataset for yearwise CO2 emissions of countries from 1990 to 2019 was downloaded from this [link](https://data.worldbank.org/indicator/EN.ATM.CO2E.PC).
 The code has been fully commented explaining each line. 
