@@ -13,3 +13,9 @@ The code has been fully commented explaining each line.
 
 To visualise the plots for different countries, enter the relevant country name in the data.loc field.
 I have made a lineplot for visualisation, to get a scatter plot(for discrete values) use plt.scatter(x,y) instead of plt.plot(x,y)
+
+## Percentinc.py
+This code gives the percentage increase in CO2 emission from the previous year. The relevant dependencies are already installed from analysis.py . 
+To visualise the plots for different countries, enter the relevant country name in the data.loc field.
+
+For some countries the growth rate reaches a negative value. To prevent clipping of the plot, I print the minimum value in the list and accordingly adjust the plt.ylim().
